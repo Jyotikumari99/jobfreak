@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background-color: rgb(200, 224, 245);
+}
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background-color: azure;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  text-align: center;
+  display: flex;
+  transition: all 0.5s ease;
+  margin: 10px 0 0 10px;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+}
+.fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+a:hover {
+  background-color: rgb(176, 203, 245);
+}
+nav:hover {
+  width: 280px;
+  transition: all 0.5s ease;
+}
+/*home page*/
+.home {
+  margin: auto;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+}
+.img {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 180px;
+  text-align: center;
+}
+.text {
+  display: inline;
+  background-color: null;
+  text-align: center;
+  margin-left: 800px;
+}
+/*forms*/
+.forms {
+  width: 600px;
+  height: 100%;
+  margin-top: 150px;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*footer*/
+footer {
+  margin-top: 20px;
+}
+/*guide*/
+.guide {
+  align-items: center;
+  font-size: larger;
+  text-align: center;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: rgb(208, 245, 255);
+}
