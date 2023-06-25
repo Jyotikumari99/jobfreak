@@ -79,17 +79,35 @@ nav:hover {
 .img {
   width: fit-content;
   height: fit-content;
-  margin-left: auto;
+  margin-left: 150px;
   text-align: center;
   background-color: rgb(200, 224, 245);
-  padding: auto;
+  font-size: 30px;
+  color: crimson;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bi img {
+  width: 550px;
+  border-radius: 50%;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 150px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*forms*/
 .forms {
   width: 500px;
   height: 100%;
-  margin-top: 150px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
 }
 * {
@@ -136,6 +154,13 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 50px;
+}
 /*footer*/
 footer {
   margin-top: 20px;
@@ -143,9 +168,16 @@ footer {
 /*guide*/
 .guide {
   align-items: center;
-  font-size: larger;
+  font-size: 40px;
   text-align: center;
   margin-left: 80px;
   padding: 20px;
-  background-color: rgb(208, 245, 255);
+  /* background-color: rgb(208, 245, 255); */
+}
+.text {
+  background-color: rgb(200, 224, 245);
+  text-align: center;
+  margin-left: 100px;
+  font-size: 30px;
+  color: crimson;
 }
