@@ -79,18 +79,15 @@ nav:hover {
 .img {
   width: fit-content;
   height: fit-content;
-  margin-left: 180px;
+  margin-left: auto;
   text-align: center;
+  background-color: rgb(200, 224, 245);
+  padding: auto;
 }
-.text {
-  display: inline;
-  background-color: null;
-  text-align: center;
-  margin-left: 800px;
-}
+
 /*forms*/
 .forms {
-  width: 600px;
+  width: 500px;
   height: 100%;
   margin-top: 150px;
   align-items: center;
